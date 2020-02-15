@@ -1,0 +1,269 @@
+<div class="tabs is-fullwidth">
+<ul>
+<li class="is-active"><a>User details</a></li>
+<li><a>Rental history</a></li>
+<li><a>Maintenance</a></li>
+</ul>
+</div>
+<section id="user-details-tab" class="tab-content">
+<div class="level">
+<div class="level-left">
+<div class="field is-horizontal">
+<label class="field-label">Email address:</label>
+<div class="control">
+<input type="email" class="input is-static" value="severus@hogwards.edu" readonly>
+</div>
+</div>
+</div>
+<div class="level-right">
+<button class="button is-medium is-primary">
+Save my details
+</button>
+</div>
+</div>
+<div class="columns">
+<div class="column is-5">
+<div class="field">
+<label class="label">First name</label>
+<div class="control">
+<input type="text" class="input">
+</div>
+</div>
+<div class="field">
+<label class="label">Last name</label>
+<div class="control">
+<input type="text" class="input">
+</div>
+</div>
+</div>
+<div class="column is-7">
+<div class="field">
+<label class="label">Address #1</label>
+<div class="control">
+<input type="text" class="input">
+</div>
+</div>
+<div class="field">
+<label class="label">Address #2</label>
+<div class="control">
+<input type="text" class="input">
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="user-detail-rents-history-tab" class="tab-content is-active">
+<table class="table is-stripped is-narrow is-hoverable is-fullwidth">
+<thead>
+<tr>
+<th>Date</th>
+<th>Who</th>
+<th>What</th>
+<th>Due</th>
+<th>Staff</th>
+<th>Last Update</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+<tr>
+<td>2020 05 19</td>
+<td>Will Terner</td>
+<td>Pirates of the Caribbean: Black pearl</td>
+<td>2020 05 25</td>
+<td>Stue Big</td>
+<td>2020 05 19</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="6">
+<nav class="pagination is-medium" role="navigation" aria-label="pagination">
+<a class="pagination-previous">Previous</a>
+<a class="pagination-next">Next page</a>
+<div class="field is-horizontal pagination-extra-content is-vcenter is-grouped">
+<div class="control">
+<div class="tags has-addons">
+<span class="tag is-dark">Rentals count</span>
+<span class="tag is-success">123</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<span class="tag is-dark">Total price</span>
+<span class="tag is-success">$123</span>
+</div>
+</div>
+</div>
+<ul class="pagination-list">
+<li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+<li><span class="pagination-ellipsis">&hellip;</span></li>
+<li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+<li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a>
+</li>
+<li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+<li><span class="pagination-ellipsis">&hellip;</span></li>
+<li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+</ul>
+</nav>
+</td>
+</tr>
+</tfoot>
+</table>
+</section>
+<section id="user-detail-maintenance-tab" class="tab-content">
+<button class="button is-medium is-danger">
+Delete my profile
+</button>
+</section>

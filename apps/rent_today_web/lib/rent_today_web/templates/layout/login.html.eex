@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link rel="stylesheet" href="/assets/lib/font-awesome/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/assets/lib/fonts/open-sans.css">
+		<link rel="stylesheet" href="/assets/lib/bulma/css/bulma.min.css">
+		<!-- <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css"> -->
+		<link rel="stylesheet" href="/assets/css/login.css">
+		<link rel="stylesheet" href="/assets/css/site.css">
+		<link rel="stylesheet" href="/assets/css/frontend.css">
+		<title>RentToday</title>
+	</head>
+
+	<body>
+    <%= render "_navbar.html", assigns %>
+		<section class="is-fullheight">
+			<div class="login-form hero is-success is-fullheight">
+				<div class="hero-body">
+					<div class="container has-text-centered">
+            <%= render @view_module, @view_template, assigns %>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="/assets/lib/bulma/js/bulma.js"></script>
+		<script src="/assets/lib/bulma/js/bulma-carousel.min.js"></script>
+	</body>
+
+</html>

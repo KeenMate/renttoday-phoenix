@@ -26,12 +26,17 @@ defmodule RentTodayWeb.Router do
     get "/login", LoginController, :new
     post "/login", LoginController, :create
     get "/logout", LoginController, :delete
+
+    get "/film", FilmController, :view
+    get "/film/detail", FilmController, :detail
+    get "/basket", FilmController, :basket
   end
 
   scope "/user", RentTodayWeb do
     pipe_through [:browser, :authorized]
 
     get "/", UserController, :view
+    get "/profile", UserController, :profile
     get "/noob", UserController, :noob
     get "/master", UserController, :master
     get "/adult", UserController, :adult

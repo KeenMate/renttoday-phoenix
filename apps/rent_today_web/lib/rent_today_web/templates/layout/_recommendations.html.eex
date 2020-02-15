@@ -1,0 +1,72 @@
+<div class="column is-3 is-fullheight is-hidden-mobile">
+    <h2 class="is-size-4">Recommendations</h2>
+    <div class="card">
+    <header class="card-header">
+        <a href="/frontend/detail-film.html" class="card-header-title">
+        Supr fascinating film
+        </a>
+    </header>
+    <div class="card-content">
+        <div class="media">
+        <div class="media-left">
+            <a href="/frontend/detail-film.html">
+            <figure class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+            </figure>
+            </a>
+        </div>
+        <div class="media-content">
+            <p class="subtitle is-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="card">
+    <header class="card-header">
+        <a href="/frontend/detail-film.html" class="card-header-title">
+        Supr fascinating film
+        </a>
+    </header>
+    <div class="card-content">
+        <div class="media">
+        <div class="media-left">
+            <a href="/frontend/detail-film.html">
+            <figure class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+            </figure>
+            </a>
+        </div>
+        <div class="media-content">
+            <p class="subtitle is-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="card">
+    <header class="card-header">
+        <a href="/frontend/detail-film.html" class="card-header-title">
+        Supr fascinating film
+        </a>
+    </header>
+    <div class="card-content">
+        <div class="media">
+        <div class="media-left">
+            <a href="/frontend/detail-film.html">
+            <figure class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+            </figure>
+            </a>
+        </div>
+        <div class="media-content">
+            <p class="subtitle is-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>

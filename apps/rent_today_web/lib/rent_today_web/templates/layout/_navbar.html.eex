@@ -1,0 +1,45 @@
+<!-- Top navigation -->
+<nav class="navbar is-info">
+    <div class="container">
+    <div class="navbar-brand">
+        <a class="navbar-item brand-text" href="/frontend/index.html">
+        RentToday
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+        <div class="level is-fullwidth">
+        <div class="level-left">
+            <div class="navbar-start">
+            <a class="navbar-item" href="/frontend/login.html">
+                Login
+            </a>
+            <a class="navbar-item" href="/frontend/films.html">
+                Films
+            </a>
+            </div>
+        </div>
+        <div class="level-right">
+            <div class="navbar-end">
+            <!-- Basket only for logged in users -->
+            <a class="navbar-item" href="/frontend/basket.html">
+                <i class="fa fa-shopping-basket"></i>
+            </a>
+            <a class="navbar-item" href="/frontend/user-profile.html">
+                User #ABC
+                <!-- Or "Log in" -->
+            </a>
+            <!-- Logout icon only for logged in users -->
+            <a href="#" class="navbar-item">
+                <i class="fa fa-sign-out-alt"></i>
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</nav>

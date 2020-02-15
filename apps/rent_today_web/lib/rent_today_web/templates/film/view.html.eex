@@ -1,0 +1,130 @@
+<div class="column">
+    <section class="section is-narrow film-filtering">
+    <div class="columns">
+        <div class="column">
+        <div class="field">
+            <label class="label">Search</label>
+            <div class="control">
+            <input class="input is-medium" type="text" placeholder="Search">
+            </div>
+        </div>
+        </div>
+        <div class="column">
+        <div class="field">
+            <label class="label">Actor</label>
+            <div class="control">
+            <input class="input is-medium is-medium" type="text" placeholder="Actor">
+            </div>
+        </div>
+        </div>
+        <div class="column is-2">
+        <div class="field">
+            <label class="label">Genre</label>
+            <div class="control">
+            <div class="select is-fullwidth is-medium">
+                <select>
+                <option selected>Choose</option>
+                <option>Sci-fi</option>
+                <option>Fantasy</option>
+                </select>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <table class="table is-stripped is-narrow is-hoverable is-fullwidth">
+    <thead>
+        <tr>
+        <th>Title</th>
+        <th>Released</th>
+        <th>Language</th>
+        <th>Available Due</th>
+        <th>Length</th>
+        <th>Last Update</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Row for no-results scenario -->
+        <!-- <tr>
+        <td colspan="6">
+            <p class="content has-text-centered">
+            We are sorry. There are no films matching your criteria.
+            </p>
+        </td>
+        </tr> -->
+        <tr>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2000 05 19</td>
+        <td>EN</td>
+        <td>2025 05 25</td>
+        <td>98</td>
+        <td>2020 01 19</td>
+        </tr>
+        <tr>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2000 05 19</td>
+        <td>EN</td>
+        <td>2025 05 25</td>
+        <td>98</td>
+        <td>2020 01 19</td>
+        </tr>
+        <tr>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2000 05 19</td>
+        <td>EN</td>
+        <td>2025 05 25</td>
+        <td>98</td>
+        <td>2020 01 19</td>
+        </tr>
+        <tr>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2000 05 19</td>
+        <td>EN</td>
+        <td>2025 05 25</td>
+        <td>98</td>
+        <td>2020 01 19</td>
+        </tr>
+        <tr>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2000 05 19</td>
+        <td>EN</td>
+        <td>2025 05 25</td>
+        <td>98</td>
+        <td>2020 01 19</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+        <td colspan="6">
+            <nav class="pagination is-medium" role="navigation" aria-label="pagination">
+            <a class="pagination-previous">Previous</a>
+            <a class="pagination-next">Next page</a>
+            <div class="field is-horizontal pagination-extra-content is-vcenter">
+                <label class="field-label">Page size</label>
+                <div class="control">
+                <div class="select is-medium">
+                    <select>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>30</option>
+                    <option>100</option>
+                    </select>
+                </div>
+                </div>
+            </div>
+            <ul class="pagination-list">
+                <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                <li><span class="pagination-ellipsis">&hellip;</span></li>
+                <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+                <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+                <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+                <li><span class="pagination-ellipsis">&hellip;</span></li>
+                <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+            </ul>
+            </nav>
+        </td>
+        </tr>
+    </tfoot>
+    </table>
+</div>

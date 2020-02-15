@@ -1,0 +1,158 @@
+<div class="level">
+<div class="level-left">
+    <h1 class="is-size-3">Supr fascinating film</h1>
+</div>
+<div class="level-right">
+    <!-- Only if available and user is logged in -->
+    <a href="#" class="button is-medium is-link">Add to basket</a>
+    <!-- <a class="button is-link is-medium" disabled>You already have this film in your shopping basket</a> -->
+</div>
+</div>
+<div class="tabs">
+<ul>
+    <li class="is-active"><a href="#">Film details</a></li>
+    <li><a href="#">Rental history</a></li>
+</ul>
+</div>
+<section id="film-detail-tab" class="tab-content is-active">
+<div class="columns">
+    <div class="column">
+    <div class="content">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+    <span class="tag is-link">Special feature #1</span>
+    <span class="tag is-link">Special feature #2</span>
+    <span class="tag is-link">Special feature #3</span>
+    </div>
+    <div class="column is-3">
+    <div class="card">
+        <div class="card-image">
+        <figure class="image is-4by3">
+            <img src="https://via.placeholder.com/620x480?text=Film+poster">
+        </figure>
+        </div>
+        <div class="card-content">
+        <div class="field is-horizontal">
+            <label class="field-label">Rental:</label>
+            <div class="control">
+            <input type="text" class="input is-static has-text-centered" value="$2.99/$15" readonly>
+            </div>
+        </div>
+        <hr>
+        <div class="field is-horizontal">
+            <label class="field-label">Genre:</label>
+            <div class="control">
+            <input type="text" class="input is-static has-text-centered" value="Sci-fi" readonly>
+            </div>
+        </div>
+        <div class="field is-horizontal">
+            <label class="field-label">Length:</label>
+            <div class="control">
+            <input type="text" class="input is-static has-text-centered" value="1h 32m" readonly>
+            </div>
+        </div>
+        <div class="field is-horizontal">
+            <label class="field-label">Released:</label>
+            <div class="control">
+            <input type="text" class="input is-static has-text-centered" value="2016 02 16" readonly>
+            </div>
+        </div>
+        <div class="field is-horizontal">
+            <label class="field-label">Rating:</label>
+            <div class="control">
+            <input type="text" class="input is-static has-text-centered" value="4.7⭐" readonly>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<section id="film-rent-history-tab" class="tab-content">
+<table class="table is-stripped is-narrow is-hoverable is-fullwidth">
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Who</th>
+        <th>What</th>
+        <th>Due</th>
+        <th>Staff</th>
+        <th>Last Update</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>2020 05 19</td>
+        <td>T*, Will</td>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2020 05 25</td>
+        <td>Stue Big</td>
+        <td>2020 05 19</td>
+    </tr>
+    <tr>
+        <td>2020 05 19</td>
+        <td>T*, Will</td>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2020 05 25</td>
+        <td>Stue Big</td>
+        <td>2020 05 19</td>
+    </tr>
+    <tr>
+        <td>2020 05 19</td>
+        <td>T*, Will</td>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2020 05 25</td>
+        <td>Stue Big</td>
+        <td>2020 05 19</td>
+    </tr>
+    <tr>
+        <td>2020 05 19</td>
+        <td>T*, Will</td>
+        <td>Pirates of the Caribbean: Black pearl</td>
+        <td>2020 05 25</td>
+        <td>Stue Big</td>
+        <td>2020 05 19</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="6">
+        <nav class="pagination is-medium" role="navigation" aria-label="pagination">
+            <a class="pagination-previous">Previous</a>
+            <a class="pagination-next">Next page</a>
+            <div class="field is-horizontal pagination-extra-content is-vcenter">
+            <label class="field-label">Page size</label>
+            <div class="control">
+                <div class="select is-medium">
+                <select>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>30</option>
+                    <option>100</option>
+                </select>
+                </div>
+            </div>
+            </div>
+            <ul class="pagination-list">
+            <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+            <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a>
+            </li>
+            <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+            </ul>
+        </nav>
+        </td>
+    </tr>
+    </tfoot>
+</table>
+</section>

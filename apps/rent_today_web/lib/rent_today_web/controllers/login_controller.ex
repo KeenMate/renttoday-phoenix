@@ -2,10 +2,12 @@ defmodule RentTodayWeb.LoginController do
   use RentTodayWeb, :controller
 
   def new(conn, _params) do
-    render conn, "new.html"
+    conn
+    |> put_layout("login.html")
+    |> render("new.html")
   end
 
-  def create(conn, %{"user" => %{"username" => username, "password" => password}}) do
+  def create(conn, %{"user" => %{"email" => username, "password" => password, "remember" => remember}}) do
     conn
     |> put_session(:authenticated, true)
     |> put_session(:user, username)
@@ -28,5 +30,9 @@ defmodule RentTodayWeb.LoginController do
 
   defp build_claims(user = "albert") do
     %{user: user, roles: ["noob"], age: Date.from_iso8601!("2005-01-01")}
+  end
+
+  defp build_claims(user) do
+    %{user: user}
   end
 end

@@ -9,6 +9,11 @@ defmodule RentTodayWeb.UserController do
   plug :restrict_roles, [allowed_roles: ["master", "noob"]] when action in [:noob]
   plug :document_permissions, [permissions: @document_permissions] when action in [:document]
 
+  def profile(conn, _params) do
+    conn
+    |> render("profile.html")
+  end
+
   def view(conn, _params) do
     render conn, "view.html"
   end

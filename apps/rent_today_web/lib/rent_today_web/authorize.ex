@@ -10,7 +10,7 @@ defmodule RentTodayWeb.Authorize do
   end
 
   def restrict_age(conn, min_age: min_age) do
-    date_of_birth = get_claims_key(conn, :age)
+    date_of_birth = get_claims_key(conn, :age, Timex.today)
 
     resolve(conn, age_restriction(date_of_birth, min_age))
   end
