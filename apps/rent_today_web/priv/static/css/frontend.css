@@ -1,0 +1,29 @@
+.film-item .title {
+	font-size: 1em
+}
+
+.film-item {
+	--film-item-footer-height: 2rem;
+	padding-bottom: var(--film-item-footer-height);
+}
+
+.film-item footer.card-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: var(--film-item-footer-height);
+}
+
+.film-detail {
+	position: absolute;
+}
+
+.film-detail > figure.image.main-poster {
+	position: relative;
+	top: 0;
+	right: 0;
+}
+
+.card hr {
+	margin: .5rem 0
+}
