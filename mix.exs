@@ -5,7 +5,17 @@ defmodule RentToday.Umbrella.MixProject do
     [
       apps_path: "apps",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      version: "0.1.0",
+      elixir: "~> 1.9",
+      releases: [
+        rent_today_umbrella: [
+          applications: [
+            rent_today: :permanent,
+            rent_today_web: :permanent
+          ]
+        ]
+      ]
     ]
   end
 
