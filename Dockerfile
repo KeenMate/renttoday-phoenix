@@ -1,8 +1,10 @@
 FROM elixir:1.9 as releaser
 
 # WORKDIR /app
+COPY . /app/
 
 # Install Hex + Rebar
+WORKDIR /app
 RUN mix do local.hex --force, local.rebar --force
 
 # COPY config/ /app/config/
@@ -14,8 +16,6 @@ RUN mix do local.hex --force, local.rebar --force
 
 ENV MIX_ENV=prod
 RUN mix do deps.get --only $MIX_ENV, deps.compile
-
-COPY . /app/
 
 WORKDIR /app/apps/rent_today_web
 # RUN MIX_ENV=prod mix compile
@@ -34,7 +34,6 @@ ENV MIX_ENV=prod \
 SHELL=/bin/bash
 
 WORKDIR /app
-COPY --from=releaser /app/_build/prod/rel/registrar_umbrella .
-COPY --from=releaser /app/bin/ ./bin
+COPY --from=releaser /app/_build/prod/rel/rent_today_umbrella .
 
-CMD ["./bin/start"]
+CMD ["./bin/rent_today_umbrella", "start"]
