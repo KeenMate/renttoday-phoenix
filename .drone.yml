@@ -9,3 +9,16 @@ steps:
       - mix do local.hex --force, local.rebar --force
       - MIX_ENV=prod mix do deps.get --only $MIX_ENV, deps.compile
       - MIX_ENV=prod mix release
+  - name: release
+    image: plugins/docker
+    when:
+      branch:
+        - master
+    settings:
+      repo: registry.ubu-002.km8.es/renttoday-phoenix
+      registry: re
+      registry: registry.ubu-002.km8.es
+        username:
+          from_secret: docker_repo_user
+        password:
+          from_secret: docker_repo_password
