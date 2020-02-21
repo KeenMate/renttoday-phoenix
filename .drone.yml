@@ -16,7 +16,6 @@ steps:
         - master
     settings:
       repo: registry.ubu-002.km8.es/renttoday-phoenix
-      registry: re
       registry: registry.ubu-002.km8.es
         username:
           from_secret: docker_repo_user
