@@ -7,5 +7,5 @@ steps:
     image: elixir:1.9
     commands:
       - mix do local.hex --force, local.rebar --force
-      - MIX_ENV=prod do deps.get --only $MIX_ENV, deps.compile
+      - MIX_ENV=prod mix do deps.get --only $MIX_ENV, deps.compile
       - MIX_ENV=prod mix release
