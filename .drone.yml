@@ -6,4 +6,6 @@ steps:
   - name: build
     image: elixir:1.9
     commands:
-      - MIX_PROD=env mix release
+      - mix do local.hex --force, local.rebar --force
+      - MIX_ENV=prod do deps.get --only $MIX_ENV, deps.compile
+      - MIX_ENV=prod mix release
