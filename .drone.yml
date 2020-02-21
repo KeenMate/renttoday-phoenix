@@ -1,0 +1,9 @@
+---
+kind: pipeline
+type: docker
+
+steps:
+  - name: build
+    image: elixir:1.9
+    commands:
+      - MIX_PROD=env mix release
