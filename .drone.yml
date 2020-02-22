@@ -9,6 +9,7 @@ steps:
       - mix do local.hex --force, local.rebar --force
       - MIX_ENV=prod mix do deps.get --only $MIX_ENV, deps.compile
       - MIX_ENV=prod mix release
+
   - name: release
     image: plugins/docker
     when:
@@ -24,6 +25,9 @@ steps:
 
   - name: deploy
     image: appleboy/drone-ssh
+    when:
+      branch:
+        - master
     settings:
       host: web-01.km8.es
       port: 22
